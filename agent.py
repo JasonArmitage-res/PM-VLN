@@ -15,7 +15,7 @@ import random
 import torch
 from torch import nn
 import torch.nn.functional as F
-from utils import _pm_inps, _mm_inps, trunc_norm
+from utils.utils import _pm_inps, _mm_inps, trunc_norm
 
 
 class BaseAgent:

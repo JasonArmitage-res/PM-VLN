@@ -12,7 +12,7 @@ https://arxiv.org/pdf/2007.00229.pdf
 import math
 import time
 import torch
-from utils import load_datasets, AverageMeter
+from utils.utils import load_datasets, AverageMeter
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

@@ -1,0 +1,33 @@
+Starting T1
+Using cached pre-trained BERT checkpoint from /home/cluster/jarmit/texar_data/BERT/bert-base-uncased.
+Using cached pre-trained BERT checkpoint from /home/cluster/jarmit/texar_data/BERT/bert-base-uncased.
+Epoch: [1][1/1]	Time 0.737 (0.737)	Loss 31.6859 (31.6859)
+Evaluation loop starts
+Evaluating on eval env ...
+Epoch: [1][1/1]	Time 0.307 (0.307)
+=======[eval] Evaluation Metrics=======
+ACC T1: 0.10================================
+--> Best dev ACC: 0.1
+--> Finished training - Task 1
+--> Finished training
+Starting T2
+Using cached pre-trained BERT checkpoint from /home/cluster/jarmit/texar_data/BERT/bert-base-uncased.
+=================================
+=====Loading image features======
+=====Initializing train navigators=====
+=====================================
+Loading navigation graph done.
+=====Initializing eval navigators=====
+=====================================
+Loading navigation graph done.
+Using cached pre-trained BERT checkpoint from /home/cluster/jarmit/texar_data/BERT/bert-base-uncased.
+Epoch: [1][1/2]	Time 8.158 (8.158)	Loss 1.3906 (1.3906)
+Epoch: [1][2/2]	Time 4.829 (6.494)	Loss 1.2408 (1.3407)
+Evaluation loop starts
+Evaluating on eval env ...
+Epoch: [1][1/1]	Time 5.502 (5.502)
+=======[eval] Evaluation Metrics=======
+TC T2: 0.00, SPD: 2.00, SED: 0.00================================
+--> Best dev SPD: 2.0, best dev TC: 0.0
+--> Finished training
+--> Finished training - Task 2

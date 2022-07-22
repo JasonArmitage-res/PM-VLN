@@ -16,7 +16,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torchvision.models.segmentation
 from packages.transformers_pm_vln import VisualBertModel, VisualBertPreTrainedModel, VBModelforFLrl, BertConfig
-from utils_fl_pm import maxout_mlp, ListModule, log2d, LoG2d, USMBase, AdaptiveUSM
+from utils.utils_fl_pm import maxout_mlp, ListModule, log2d, LoG2d, USMBase, AdaptiveUSM
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

@@ -15,7 +15,7 @@ https://arxiv.org/pdf/2007.00229.pdf
 
 import torch
 from torch import nn
-from utils import padding_idx
+from utils.utils import padding_idx
 
 
 class Conv_net(nn.Module):

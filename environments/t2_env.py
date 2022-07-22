@@ -16,7 +16,7 @@ import os
 import random
 import re
 from base_navigator import BaseNavigator
-from utils import load_datasets, load_nav_graph, input_img
+from utils.utils import load_datasets, load_nav_graph, input_img
 import networkx as nx
 import torch
 import torch.nn.functional as F

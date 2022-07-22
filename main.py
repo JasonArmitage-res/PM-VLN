@@ -24,8 +24,8 @@ from environments.t1_env import T1Batch
 from environments.t2_env import load_features, T2Batch
 from agent import TaskFramework
 from trainer import TaskTrainer
-from utils import setup_seed, read_vocab, Tokenizer, resume_training, set_tb_logger, save_checkpoint, save_checkpoint_fl, FLLoader
-from utils_fl_pm import SegEmb, tpm_load_ckpt
+from utils.utils import setup_seed, read_vocab, Tokenizer, resume_training, set_tb_logger, save_checkpoint, save_checkpoint_fl, FLLoader
+from utils.utils_fl_pm import SegEmb, tpm_load_ckpt
 # Models
 from modeling.fl_pm import FLpm
 from modeling.cnn_text import Conv_net, Text_linear
