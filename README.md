@@ -46,7 +46,7 @@ We present in this repository samples from the following datasets:
 #### Full Datasets
 Experiments conducted for the paper above require pretraining the PM-VLN module on the auxiliary datasets generated for this research and evaluating the framework on the Touchdown benchmark.
 
-Versions of the auxiliary datasets are made available under Creative Commons public license at this [link](https://sites.google.com/view/streetlearn/touchdown).
+Versions of the auxiliary datasets are made available under Creative Commons public license at this [link](https://zenodo.org/record/6891965#.YtwoS3ZBxD8).
 
 In order to access and download Touchdown and StreetLearn, please refer to this [link](https://sites.google.com/view/streetlearn/touchdown).
 
