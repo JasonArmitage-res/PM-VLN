@@ -28,11 +28,15 @@ This repository contains data samples to run the FL<sub>PM</sub> framework with 
 - Start training using the command line below.
 
 ``` bash
-python main.py --dataset vln_sl_sample --img_feat_dir ./datasets/vln_sl_sample/features/ --pt_feat_dir ./datasets/vln_sl_sample/pt_features/ --hidden_dim 256 --model vbforvln --vln_batch_size 2 --fl_batch_size 5 --max_num_epochs 1 --exp_name train_tini_new --store_ckpt_every_epoch True --fl_dir datasets/mc_10_sample --fl_dataset mc_10 --fl_feat_dir datasets/mc_10_sample/features --fl_pt_feat_dir datasets/mc_10_sample/pt_features --max_instr_len 180 --max_window_len 80 --max_t_v_len 140 > flpm_out.txt
+python main.py --dataset vln_sl_sample --img_feat_dir ./datasets/vln_sl_sample/features/ --pt_feat_dir ./datasets/vln_sl_sample/pt_features/ --hidden_dim 256 --model vbforvln --vln_batch_size 2 --fl_batch_size 5 --max_num_epochs 1 --exp_name train_sample_new --store_ckpt_every_epoch True --fl_dir datasets/mc_10_sample --fl_dataset mc_10 --fl_feat_dir datasets/mc_10_sample/features --fl_pt_feat_dir datasets/mc_10_sample/pt_features --max_instr_len 180 --max_window_len 80 --max_t_v_len 140 > flpm_sample_out.txt
 ```
 
 #### Steps to Run with Full Datasets
+Please see below information on the full auxiliary datasets and access to Touchdown. Notes on conducting individual experiments are provided ib the paper. A sample command line for training the framework is added below (please update directory paths with locations of the MC-10 and Touchdown datasets).
 
+``` bash
+python main.py --dataset touchdown --img_feat_dir ./datasets/touchdown/features/ --pt_feat_dir ./datasets/touchdown/pt_features/ --hidden_dim 256 --model vbforvln --vln_batch_size 30 --fl_batch_size 60 --max_num_epochs 80 --exp_name train_new --store_ckpt_every_epoch True --fl_dir datasets/mc_10 --fl_dataset mc_10 --fl_feat_dir datasets/mc_10/features --fl_pt_feat_dir datasets/mc_10/pt_features --max_instr_len 180 --max_window_len 80 --max_t_v_len 140 > flpm_full_out.txt
+```
 
 ### Data
 #### Sample Data
