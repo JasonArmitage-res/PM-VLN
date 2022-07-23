@@ -23,11 +23,8 @@ pip install -r requirements.txt
 This repository contains data samples to run the FL<sub>PM</sub> framework with integrated PM-VLN for initial review of the code. Please see below for details on the sample data. We tested and ran the framework with these samples on a single Tesla GPU with 16GB of RAM.   
 
 - CD into the main directory.
-- Install requirements for the project: 
-``` bash 
-pip install -r requirements.txt 
-```
-- Unzip the archive containing the datasets (see below for details on contents): ``` bash unzip SupMat_and_datasets_paper_id_672 ```
+- Install requirements for the project: ```pip install -r requirements.txt ```
+- Unzip the archive containing the datasets (see below for details on contents): ```unzip SupMat_and_datasets_paper_id_672```
 - Start training using the command line below.
 
 ``` bash
