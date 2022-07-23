@@ -40,9 +40,9 @@ We present in this repository samples from the following datasets:
   - mc_10_sample - data from MC-10 to train the PM-VLN module.
   - vln_sl_sample - sample VLN dataset containing nine modified samples of routes from StreetLearn.
 #### Full Datasets
-Experiments conducted for the paper above require pretraining the PM-VLN module and evaluating the framework on the Touchdown benchmark.
+Experiments conducted for the paper above require pretraining the PM-VLN module on the auxiliary datasets generated for this research and evaluating the framework on the Touchdown benchmark.
 
-Versions of the auxiliary datasets generated for this research are made available under Creative Commons public license at this [link](https://sites.google.com/view/streetlearn/touchdown).
+Versions of the auxiliary datasets are made available under Creative Commons public license at this [link](https://sites.google.com/view/streetlearn/touchdown).
 
 In order to access and download Touchdown and StreetLearn, please refer to this [link](https://sites.google.com/view/streetlearn/touchdown).
 
