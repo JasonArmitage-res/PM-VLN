@@ -4,7 +4,7 @@ This repository contains source code and sample data for the priority map module
 
 
 
-![system](/fig_flpm_git.png)
+![system](/fig_flpm_git.pdf)
 
 ### Requirements
 Python version >= 3.7
