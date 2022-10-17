@@ -57,16 +57,8 @@ In order to access and download Touchdown and StreetLearn, please refer to this 
 ### Cite
 Please use our code and add a citation if you find it interesting.
 
-@article{armitage2022priority,
-  title={A Priority Map for Vision-and-Language Navigation with Trajectory Plans and Feature-Location Cues},
-  author={Armitage, Jason and Impett, Leonardo and Sennrich, Rico},
-  journal={arXiv preprint arXiv:2207.11717},
-  year={2022}
-}
-
-``` bash
-coming soon!
-```
+Armitage, Jason, Leonardo Impett, and Rico Sennrich. "A Priority Map for Vision-and-Language Navigation with Trajectory Plans and Feature-Location Cues." arXiv preprint arXiv:2207.11717 (2022).
+[URL: ](https://arxiv.org/abs/2207.11717)
 
 ### License
 This research is released under MIT license (please click [here](https://github.com/JasonArmitage-res/PM-VLN/blob/main/LICENSE)).
