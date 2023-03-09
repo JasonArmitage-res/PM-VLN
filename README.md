@@ -62,14 +62,15 @@ Link: [https://openaccess.thecvf.com/content/WACV2023/html/Armitage_A_Priority_M
 
 BibTeX:
 ```
-@InProceedings{Armitage_2023_WACV,
-    author    = {Armitage, Jason and Impett, Leonardo and Sennrich, Rico},
-    title     = {A Priority Map for Vision-and-Language Navigation With Trajectory Plans and Feature-Location Cues},
-    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-    month     = {January},
-    year      = {2023},
-    pages     = {1094-1103}
-}
+@INPROCEEDINGS{10030783,
+  author={Armitage, Jason and Impett, Leonardo and Sennrich, Rico},
+  booktitle={2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}, 
+  title={A Priority Map for Vision-and-Language Navigation with Trajectory Plans and Feature-Location Cues}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1094-1103},
+  doi={10.1109/WACV56688.2023.00115}}
 ```
 
 ### License
