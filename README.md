@@ -57,7 +57,7 @@ In order to access and download Touchdown and StreetLearn, please refer to this 
 ### Cite
 Please use our code and add a citation if you find it interesting.
 
-Armitage, Jason, Leonardo Impett, and Rico Sennrich. "A Priority Map for Vision-and-Language Navigation with Trajectory Plans and Feature-Location Cues." arXiv preprint arXiv:2207.11717 (2022). <br/>
+Jason Armitage, Leonardo Impett, and Rico Sennrich. "A Priority Map for Vision-and-Language Navigation with Trajectory Plans and Feature-Location Cues." arXiv preprint arXiv:2207.11717 (2022). <br/>
 Link: [https://openaccess.thecvf.com/content/WACV2023/html/Armitage_A_Priority_Map_for_Vision-and-Language_Navigation_With_Trajectory_Plans_and_WACV_2023_paper.html](https://openaccess.thecvf.com/content/WACV2023/html/Armitage_A_Priority_Map_for_Vision-and-Language_Navigation_With_Trajectory_Plans_and_WACV_2023_paper.html)
 
 BibTeX:
