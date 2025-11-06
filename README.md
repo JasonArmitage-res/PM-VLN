@@ -67,11 +67,9 @@ BibTeX:
   booktitle={2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}, 
   title={A Priority Map for Vision-and-Language Navigation with Trajectory Plans and Feature-Location Cues}, 
   year={2023},
-  volume={},
-  number={},
   pages={1094-1103},
   doi={10.1109/WACV56688.2023.00115}}
 ```
 
 ### License
-This research is released under MIT license (please click [here](https://github.com/JasonArmitage-res/PM-VLN/blob/main/LICENSE)).
+This research is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license (please click here: https://creativecommons.org/licenses/by/4.0/).
